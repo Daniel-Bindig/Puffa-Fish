@@ -21,6 +21,7 @@ const typeDefs = `
     product: Product!
     quantity: Int!
     price: Float!
+  }
 
   type Query {
     products: [Product]

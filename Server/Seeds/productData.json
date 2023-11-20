@@ -1,0 +1,72 @@
+[
+    {
+        "title": "AMS Patch Cable - 6inch (single)",
+        "description": "Right angle jacks, 6 inch length with robust metal jack plugs",
+        "price": "5.99",
+        "brand": "AMS",
+        "quantityAvailable": "50"
+    },
+    {
+        "title": "Boss 10ft Instrument Cable",
+        "description": "Engineered to preserve your tone, BOSS cables deliver superior performance for guitar, bass, and other musical applications. Studio-grade, oxygen-free copper core wire transfers every detail, while custom-designed connectors with 24K gold-plated contacts ensure the most precise sound reproduction available. The heavy-duty braided shield provides both ultra-quiet operation and lasting durability you can count on.",
+        "price": "46.95",
+        "brand": "Boss",
+        "quantityAvailable": "26"
+    },
+    {
+        "title": "EBS Premium Gold Flat Patch Cable - Single - 10cm",
+        "description": "If you have ever struggled with limited space on your pedalboard, we share the pain with you. To end the frustration we’ve designed the truly unique, super compact and affordable EBS Flat Patch Cables. Cables that won’t let you down on sound and flexibility, and at the same time reduce the space needed between pedals to a minimum. The elegant Premium Gold (PG) series are the most compact and features 24K Gold plated contacts with even smaller housing than the original EBS PCF-Deluxe (PCF-D) cables.",
+        "price": "15.00",
+        "brand": "EBS",
+        "quantityAvailable": "36"
+    },
+    {
+        "title": "Dimarzio Instrument Cable 10ft (3m) - Black",
+        "description": "American made guitar cable. The same cable and sturfy ands as the famous DiMarzio overbraid cable but with a lower price! Black without overboard or cable tie. 10 foot long.",
+        "price": "44.00",
+        "brand": "DiMarzio",
+        "quantityAvailable": "41"
+    },
+    {
+        "title": "Mogami Gold Patch Cable for Pedals (RA-RA) - 10 inch",
+        "description": "A must have for any serious pedal owner! Dramatically improve the quality of your signal and gets the most from your pedals!",
+        "price": "42.00",
+        "brand": "Mogami",
+        "quantityAvailable": "3"
+    },
+    {
+        "title": "AMS Patch Cable - 1ft (single)",
+        "description": "Right angle jacks, 6 inch length with robust metal jack plugs",
+        "price": "6.99",
+        "brand": "AMS",
+        "quantityAvailable": "102"
+    },
+    {
+        "title": "Boss 6 Inch Patch Cable (3 Pack)",
+        "description": "Short audio cable, perfect for connecting your compact pedals. Right-angle 1/4-inch connectors, 6-inch/15 cm length. Available individually (BICPC) or in a package of three.",
+        "price": "55.00",
+        "brand": "Boss",
+        "quantityAvailable": "29"
+    },
+    {
+        "title": "Mogami Gold Instrument Cable 1/4 inch Jacks - 10ft",
+        "description": "Perfect for Guitar/Bass, these cables really do improve sound! Try it yourself and hear the difference!",
+        "price": "79.00",
+        "brand": "Mogami",
+        "quantityAvailable": "1"
+    },
+    {
+        "title": "Boss Solderless Pedalboard Cable Kit - 24 Connectors 24ft cable",
+        "description": "The BOSS Solderless Pedalboard Cable Kit is designed to save space on your pedalboard without sacrificing tone. Easy to assemble, this customizable system requires only the tightening of a single ground screw on each connector, with no cable stripping required. Our compact bi-directional connectors are engineered to allow straight or right-angle connections, and enable you to place your pedals as close as 1 cm apart.",
+        "price": "195.00",
+        "brand": "Boss",
+        "quantityAvailable": "23"
+    },
+    {
+        "title": "Mogami Platinum Guitar Cable 1/4 inch Jacks Right Angle to Straight - 12ft",
+        "description": "Perfect for Guitar/Bass, these cables really do improve sound! Try it yourself and hear the difference!",
+        "price": "134.00",
+        "brand": "Mogami",
+        "quantityAvailable": "21"
+    }
+]
