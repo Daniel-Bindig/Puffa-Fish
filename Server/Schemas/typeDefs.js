@@ -4,8 +4,7 @@ const typeDefs = `
     title: String!
     description: String!
     price: Float!
-    catagory: String!
-    imageUrl: String!
+    brand: String!
     quantityAvailable: Int!
   }
 

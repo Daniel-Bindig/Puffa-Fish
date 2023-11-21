@@ -13,6 +13,8 @@ const server = new ApolloServer({
   resolvers,
 });
 
+const productRouter = require('./Routes/productRouter')
+
 const startApolloServer = async () => {
   await server.start();
   
