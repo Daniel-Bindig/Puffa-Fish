@@ -23,8 +23,8 @@ const typeDefs = `
   }
 
   type Query {
-    products: [Product]
-    orders: [Order]
+    products: [Product]!
+    orders: [Order]!
   }
 
 `;

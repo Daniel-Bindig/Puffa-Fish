@@ -1,6 +1,5 @@
 const Product = require('../Models/product');
-const Order = require('../Models/Order')
-
+const Order = require('../Models/Order');
 
 const resolvers = {
   Query: {
@@ -13,17 +12,16 @@ const resolvers = {
         throw error;
       }
     },
-  
-  orders: async () => {
-    try {
-      const fetchedOrders = await Order.find();
-      return fetchedOrders;
-    } catch (error) {
-      console.error('Error fetching Orders:', error);
-      throw error;
-    }
-  },
+    orders: async () => {
+      try {
+        const fetchedOrders = await Order.find();
+        return fetchedOrders;
+      } catch (error) {
+        console.error('Error fetching Orders:', error);
+        throw error;
+      }
+    },
   },
 };
 
-module.exports = resolvers
+module.exports = resolvers;
