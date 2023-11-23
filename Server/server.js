@@ -3,17 +3,44 @@ const { ApolloServer } = require('@apollo/server');
 const { expressMiddleware } = require('@apollo/server/express4');
 const path = require('path');
 
+
 const { typeDefs, resolvers } = require('./Schemas');
 const db = require('./config/connection');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
+const cors = require('cors');
 const server = new ApolloServer({
   typeDefs,
   resolvers,
 });
 
+const corsOptions = {
+  origin: 'http://localhost:3000',
+  optionsSuccessStatus: 200, 
+};
+
+app.use(cors(corsOptions));
+
 const productRouter = require('./Routes/productRouter')
+
+app.get('/api/products', async (req, res) => {
+  try {
+    const products = await Product.find();
+    res.json(products);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
+
+app.get('/api/orders', async (req, res) => {
+  try {
+    const orders = await Order.find();
+    res.json(orders);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
 
 const startApolloServer = async () => {
   await server.start();
@@ -30,7 +57,6 @@ const startApolloServer = async () => {
       res.sendFile(path.join(__dirname, '../client/dist/index.html'));
     });
   } 
-
   db.once('open', () => {
     app.listen(PORT, () => {
       console.log(`API server running on port ${PORT}!`);
@@ -38,5 +64,4 @@ const startApolloServer = async () => {
     });
   });
 };
-
 startApolloServer();

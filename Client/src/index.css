@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 #root {
+    background-color: rgb(29, 29, 29);
     max-width: 100%;
     margin: 0;
     padding: 0;
     text-align: left;
+    min-height: 100%;
 }
 
 body {
